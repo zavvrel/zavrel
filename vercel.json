@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/content", "destination": "https://media.l3gh.com/fabi/api/content" },
+    { "source": "/media/:path*", "destination": "https://media.l3gh.com/fabi/media/:path*" }
+  ],
+  "redirects": [
+    { "source": "/admin", "destination": "https://media.l3gh.com/fabi/admin", "permanent": false },
+    { "source": "/admin/:path*", "destination": "https://media.l3gh.com/fabi/admin", "permanent": false }
+  ]
+}
